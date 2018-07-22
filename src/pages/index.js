@@ -5,7 +5,7 @@ const projects = [
   {
     'project-slug': 'guessing-game',
     'project-title': 'Guessing Game',
-    'project-img': 'https://github.com/hsujessica/guessing-game/blob/42355350580f7632d853c7d6b74a57720cc702e0/screenshot.png',
+    'project-img': 'https://raw.githubusercontent.com/hsujessica/guessing-game/42355350580f7632d853c7d6b74a57720cc702e0/screenshot.png',
     'project-details': 'JavaScript, jQuery, HTML, CSS',
     'project-github': 'https://github.com/hsujessica/guessing-game',
     'project-view': 'http://hsujessica.github.io/guessing-game'
