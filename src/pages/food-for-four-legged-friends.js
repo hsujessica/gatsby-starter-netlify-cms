@@ -1,8 +1,9 @@
 import React from 'react'
+import ProjectPage from './../components/ProjectPage'
 
-const FoodFriends = () => (
+const FoodFriends = props => (
   <div>
-
+    <ProjectPage project={props.project} />
   </div>
 )
 

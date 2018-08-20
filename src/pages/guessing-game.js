@@ -1,10 +1,10 @@
 import React from 'react'
+import ProjectPage from './../components/ProjectPage'
 
-const GuessingGame = () => (
+const GuessingGame = props => (
   <div>
-    {/* <a href='https://github.com/hsujessica/guessing-game'></a> */}
+    <ProjectPage project={props.project} />
   </div>
 )
 
 export default GuessingGame
-

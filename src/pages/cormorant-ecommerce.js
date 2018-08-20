@@ -1,10 +1,10 @@
 import React from 'react'
 import ProjectPage from './../components/ProjectPage'
 
-const FashionDatabase = props => (
+const Cormorant = props => (
   <div>
     <ProjectPage project={props.project} />
   </div>
 )
 
-export default FashionDatabase
+export default Cormorant
