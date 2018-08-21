@@ -5,7 +5,8 @@ const projects = [
   {
     projectSlug: 'fig',
     projectTitle: 'fig',
-    projectImg: '',
+    projectImg:
+      'https://files.slack.com/files-pri/T024FPYBQ-FCAQEAG5P/classrooms.jpg',
     projectDetails: 'ReactJS, Google Cloud Firestore, React DnD',
     projectRepo: 'https://github.com/Capstone1806/fig',
     projectView: 'https://capstone-fig-1806.herokuapp.com/',

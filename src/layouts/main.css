@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  flex-wrap: wrap;
   margin: 4% 8%;
 }
 
@@ -17,22 +18,25 @@ body {
 
 .nav {
   display: flex;
+  justify-content: space-between;
+  width: 30%;
   font-size: 14px;
   list-style-type: none;
 }
 
 .nav-link {
-  padding-left: 100px;
   letter-spacing: 1.4px;
 }
 
-a, a:visited {
-  color: rgba(0,0,0,1);
+a,
+a:visited {
+  color: rgba(0, 0, 0, 1);
   text-decoration: none;
 }
 
-a:hover, a:active {
-  color: rgba(0,0,0,.7);
+a:hover,
+a:active {
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .projects-display {
@@ -43,7 +47,7 @@ a:hover, a:active {
 }
 
 .project {
-  width: 29%;
+  width: 350px;
   margin: 3% 2%;
 }
 
