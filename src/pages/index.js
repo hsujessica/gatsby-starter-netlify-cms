@@ -6,7 +6,7 @@ const projects = [
     projectSlug: 'fig',
     projectTitle: 'fig',
     projectImg:
-      'https://files.slack.com/files-pri/T024FPYBQ-FCAQEAG5P/classrooms.jpg',
+      'https://raw.githubusercontent.com/Capstone1806/fig/master/screenshot.png',
     projectDetails: 'ReactJS, Google Cloud Firestore, React DnD',
     projectRepo: 'https://github.com/Capstone1806/fig',
     projectView: 'https://capstone-fig-1806.herokuapp.com/',
@@ -24,9 +24,10 @@ const projects = [
   {
     projectSlug: 'neon-extension',
     projectTitle: 'neon',
-    projectImg: '',
-    projectDetails: 'JavaScript',
-    projectRepo: '',
+    projectImg:
+      'https://raw.githubusercontent.com/hsujessica/neon/master/screenshot.png',
+    projectDetails: 'JavaScript, IndexedDB',
+    projectRepo: 'https://github.com/hsujessica/neon',
     projectView: '',
   },
   {
