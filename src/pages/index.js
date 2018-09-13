@@ -28,7 +28,7 @@ const projects = [
       'https://raw.githubusercontent.com/hsujessica/neon/master/screenshot.png',
     projectDetails: 'JavaScript, IndexedDB',
     projectRepo: 'https://github.com/hsujessica/neon',
-    projectView: '',
+    projectView: '#',
   },
   {
     projectSlug: 'guessing-game',
@@ -46,7 +46,7 @@ const projects = [
       'https://raw.githubusercontent.com/hsujessica/fashion-database/51f2d5b98be6f1645f25da2992056dbd03df4fc1/screenshot.png',
     projectDetails: 'PHP, MySQL, HTML, CSS',
     projectRepo: 'https://github.com/hsujessica/fashion-database',
-    projectView: '',
+    projectView: '#',
   },
   {
     projectSlug: 'food-for-four-legged-friends',
@@ -55,7 +55,7 @@ const projects = [
       'https://github.com/hsujessica/pet-food-store/raw/master/screenshot.png',
     projectDetails: 'PHP, JavaScript, HTML, CSS',
     projectRepo: 'https://github.com/hsujessica/pet-food-store',
-    projectView: '',
+    projectView: '#',
   },
 ]
 

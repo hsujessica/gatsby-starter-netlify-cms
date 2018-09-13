@@ -9,7 +9,14 @@ const Project = props => (
       <p className="project-title">{props.project.projectTitle}</p>
     </a>
     <p className="project-details">{props.project.projectDetails}</p>
-    <a href={props.project.projectRepo}>View Repo</a>
+    <a
+      className="project-repo-link"
+      href={props.project.projectRepo}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      View Repo
+    </a>
     {/* </Link> */}
   </div>
 )
