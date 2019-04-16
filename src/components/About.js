@@ -8,19 +8,16 @@ const About = () => {
         <p>Hi there! I'm Jessica.</p>
         <p>Coder, crafter, cruciverbalist.</p>
         <p>
-          I believe in compassionate code that helps people live more genuinely.
-          I started programming in 2012 when curiosity led me to pursue a minor
-          in web programming at NYU. Curiosity turned to enthusiasm, and I
-          recently spent my summer at Fullstack Academy, updating and refining
-          my skills.
+          Currently at Dropbox, SF. I believe in compassionate code that helps
+          people live more genuinely.
         </p>
       </div>
       <div className="about-section">
         <Contact />
       </div>
       <div className="about-section">
-        <p>Currently reading: Eckhart Tolle - The Power of Now</p>
-        <p>Currently listening to: Mating Ritual - Cold</p>
+        <p>Currently reading: The Deepest Well - Nadine Burke Harris</p>
+        <p>Currently listening to: Used To You - Foreign Air</p>
       </div>
     </div>
   )

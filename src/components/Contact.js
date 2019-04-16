@@ -27,16 +27,6 @@ const Contact = () => (
       </a>
     </p>
     <p>
-      Read my posts on&nbsp;
-      <a
-        href="http://medium.com/@jessica.hsu"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Medium
-      </a>
-    </p>
-    <p>
       Buy a funny/punny card on&nbsp;
       <a href="http://holepun.ch/" target="_blank" rel="noopener noreferrer">
         Etsy
