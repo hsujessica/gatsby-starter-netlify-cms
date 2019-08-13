@@ -7,17 +7,14 @@ const About = () => {
       <div className="about-section">
         <p>Hi there! I'm Jessica.</p>
         <p>Coder, crafter, cruciverbalist.</p>
-        <p>
-          Currently at Dropbox, SF. I believe in compassionate code that helps
-          people live more genuinely.
-        </p>
+        <p>Currently at Dropbox, SF.</p>
       </div>
       <div className="about-section">
         <Contact />
       </div>
       <div className="about-section">
-        <p>Currently reading: The Deepest Well - Nadine Burke Harris</p>
-        <p>Currently listening to: Used To You - Foreign Air</p>
+        <p>Currently reading: The Body Keeps the Score - Bessel van der Kolk</p>
+        <p>Currently listening to: Dawn, the Front - Talos</p>
       </div>
     </div>
   )

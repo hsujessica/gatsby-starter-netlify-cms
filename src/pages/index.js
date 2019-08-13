@@ -3,6 +3,15 @@ import Project from '../components/project'
 
 const projects = [
   {
+    projectSlug: 'friendchips',
+    projectTitle: 'Friendchips',
+    projectImg:
+      'https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/786/729/datas/gallery.jpg',
+    projectDetails: "HackMentalHealth 2019 - Judges' Recognition Award",
+    projectRepo: null,
+    projectView: 'https://devpost.com/software/friendchips',
+  },
+  {
     projectSlug: 'fig',
     projectTitle: 'fig',
     projectImg:
