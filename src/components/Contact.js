@@ -7,7 +7,7 @@ const Contact = () => (
       <a href="mailto:jessica.y.hsu+website@gmail.com">Email</a>
     </p>
     <p>
-      Follow my code on&nbsp;
+      See what I've made on&nbsp;
       <a
         href="https://github.com/hsujessica"
         target="_blank"
@@ -27,29 +27,13 @@ const Contact = () => (
       </a>
     </p>
     <p>
-      Buy a funny/punny card on&nbsp;
-      <a href="http://holepun.ch/" target="_blank" rel="noopener noreferrer">
-        Etsy
-      </a>
-    </p>
-    <p>
-      Send me a tweet on&nbsp;
+      Background check me on&nbsp;
       <a
         href="https://twitter.com/jessicahsu_"
         target="_blank"
         rel="noopener noreferrer"
       >
         Twitter
-      </a>
-    </p>
-    <p>
-      See through my lens on&nbsp;
-      <a
-        href="https://www.instagram.com/jessicahsu_/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Instagram
       </a>
     </p>
   </div>

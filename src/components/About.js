@@ -6,15 +6,19 @@ const About = () => {
     <div className="about">
       <div className="about-section">
         <p>Hi, I'm Jessica.</p>
-        <p>Coder, crafter, cruciverbalist.</p>
+        <p>Code, craft, and crosswords.</p>
         <p>Currently at Square, SF. Previously Dropbox.</p>
       </div>
       <div className="about-section">
         <Contact />
       </div>
       <div className="about-section">
-        <p>Currently reading: <i>On Looking: A Walker's Guide to the Art of Observation - Alexandra Horowitz</i></p>
-        <p>Currently listening to: <i>Le Point Zéro - Freedom Fry</i></p>
+        <p>
+          Currently reading: <i>Becoming Myself - Irvin Yalom</i>
+        </p>
+        <p>
+          Currently listening to: <i>Sea Song - Fakear</i>
+        </p>
       </div>
     </div>
   )
