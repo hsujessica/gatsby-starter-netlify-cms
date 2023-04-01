@@ -14,11 +14,17 @@ body {
   margin: 4% 8%;
 }
 
-.header-title {
+.header-title a,
+.header-title a:hover,
+.header-title a:focus,
+.header-title a:active,
+.header-title a:visited {
   min-width: 30vw;
   font-family: 'Source Code Pro', sans-serif;
   font-weight: 300;
   font-size: 18px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
 }
 
 .nav {
@@ -42,19 +48,40 @@ a:visited {
 }
 
 a:hover,
+a:focus,
 a:active {
   color: rgba(0, 0, 0, 0.7);
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.main-content {
+  padding: 0 8%;
 }
 
 .projects-display {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .projects-display {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 60px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .projects-display {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0px;
+  }
 }
 
 .project {
-  width: 350px;
-  margin: 3% 2%;
   line-height: 1.7;
 }
 
@@ -89,10 +116,18 @@ a:active {
   font-size: 14px;
 }
 
-.contact-links a {
+.contact-links a,
+.contact-links a:visited {
   color: rgba(0, 0, 160, 0.8);
-  /* text-decoration-line: underline;
-  text-decoration-style: wavy; */
+  text-decoration: none;
+}
+
+.contact-links a:hover,
+.contact-links a:focus,
+.contact-links a:active {
+  color: rgba(40, 40, 160, 0.8);
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
 }
 
 .about {

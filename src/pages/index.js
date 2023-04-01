@@ -18,7 +18,7 @@ const projects = [
       'https://raw.githubusercontent.com/Capstone1806/fig/master/screenshot.png',
     projectDetails: 'ReactJS, Google Cloud Firestore, React DnD',
     projectRepo: 'https://github.com/Capstone1806/fig',
-    projectView: 'https://capstone-fig-1806.herokuapp.com/',
+    projectView: '#',
   },
   {
     projectSlug: 'cormorant-ecommerce',
@@ -28,7 +28,7 @@ const projects = [
     projectDetails:
       'ReactJS, Redux, Node ExpressJS, Sequelize, PassportJS, CSS',
     projectRepo: 'https://github.com/Supermodel-Matrices/GraceShopper',
-    projectView: 'http://supermodel-matrices.herokuapp.com/',
+    projectView: '#',
   },
   {
     projectSlug: 'neon-extension',
@@ -46,7 +46,7 @@ const projects = [
       'https://raw.githubusercontent.com/hsujessica/guessing-game/42355350580f7632d853c7d6b74a57720cc702e0/screenshot.png',
     projectDetails: 'JavaScript, jQuery, HTML, CSS',
     projectRepo: 'https://github.com/hsujessica/guessing-game',
-    projectView: 'http://hsujessica.github.io/guessing-game',
+    projectView: '#',
   },
   {
     projectSlug: 'fashion-database',
@@ -69,10 +69,12 @@ const projects = [
 ]
 
 const IndexPage = () => (
-  <div className="projects-display">
-    {projects.map(project => (
-      <Project project={project} key={project.projectTitle} />
-    ))}
+  <div className="main-content">
+    <div className="projects-display">
+      {projects.map(project => (
+        <Project project={project} key={project.projectTitle} />
+      ))}
+    </div>
   </div>
 )
 

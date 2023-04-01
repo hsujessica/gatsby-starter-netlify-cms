@@ -15,12 +15,12 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Jessica Hsu Portfolio' },
         {
           name: 'keywords',
-          content: 'Web Developer Software Engineer JavaScript React SQL',
+          content: 'Web Developer Frontend Software Engineer JavaScript React SQL',
         },
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
-    <div>{children()}</div>
+    {children()}
     <Divider />
     <About />
     <Divider />

@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-section">
         <p>Hi, I'm Jessica.</p>
         <p>Code, craft, and crosswords.</p>
-        <p>Currently at Square, SF. Previously Dropbox.</p>
+        <p>Currently at Block. Previously Dropbox.</p>
       </div>
       <div className="about-section">
         <Contact />
