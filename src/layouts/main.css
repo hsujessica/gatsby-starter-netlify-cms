@@ -19,22 +19,24 @@ body {
 .header-title a:focus,
 .header-title a:active,
 .header-title a:visited {
+  display: flex;
   min-width: 30vw;
   font-family: 'Source Code Pro', sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .5px;
   color: rgba(0, 0, 0, 1);
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
-  width: 30%;
-  min-width: 200px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 45px;
+  width: 110px;
   padding: 0;
   font-size: 14px;
-  list-style-type: none;
 }
 
 .nav-link {
