@@ -14,7 +14,7 @@ const About = () => {
       </div>
       <div className="about-section">
         <p>
-          Currently reading: <i>Becoming Myself - Irvin Yalom</i>
+          Currently reading: <i>The Consolations of Philosophy - Alain de Botton</i>
         </p>
         <p>
           Currently listening to: <i>Sea Song - Fakear</i>

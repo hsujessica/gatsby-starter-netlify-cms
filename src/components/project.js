@@ -8,7 +8,7 @@ const Project = props => (
     <span>
       <img src={props.project.projectImg} className="project-img" />
       <p className="project-title">{props.project.projectTitle}</p>
-    {/* </a> */}
+      {/* </a> */}
     </span>
     <p className="project-details">{props.project.projectDetails}</p>
     {props.project.projectRepo ? (
@@ -19,7 +19,7 @@ const Project = props => (
         rel="noopener noreferrer"
       >
         View Repo
-        </a>
+      </a>
     ) : null}
     {/* </Link> */}
   </div>

@@ -15,7 +15,8 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Jessica Hsu Portfolio' },
         {
           name: 'keywords',
-          content: 'Web Developer Frontend Software Engineer JavaScript React SQL',
+          content:
+            'Web Developer Frontend Software Engineer JavaScript React SQL',
         },
       ]}
     />

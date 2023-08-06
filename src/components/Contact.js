@@ -7,7 +7,7 @@ const Contact = () => (
       <a href="mailto:jessica.y.hsu+website@gmail.com">Email</a>
     </p>
     <p>
-      See what I've made on&nbsp;
+      Visit my&nbsp;
       <a
         href="https://github.com/hsujessica"
         target="_blank"
@@ -24,16 +24,6 @@ const Contact = () => (
         rel="noopener noreferrer"
       >
         LinkedIn
-      </a>
-    </p>
-    <p>
-      Background check me on&nbsp;
-      <a
-        href="https://twitter.com/jessicahsu_"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Twitter
       </a>
     </p>
   </div>
